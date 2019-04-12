@@ -149,9 +149,12 @@ It is possible to exchange files between the VNE host machine, the VNE virtual m
 
 The `sharedLAB` folder is shared by the VNE virtual machine and nodes in the virtual laboratories. This folder is accessed via `/root/sharedLAB` on the VNE virtual machine and via `/sharedLAB` in the virtual nodes. The `sharedLAB` folder is useful for, e.g., distributing configuration to the nodes in the laboratory.
 
-The `sharedVNE` folder is shared by the VNE virtual machine, nodes in the laboratories, and the VNE host machine. It is accessed via `/root/sharedVNE` in the VNE virtual machine and `/sharedVNE` in the nodes. How `sharedVNE` is accessed from the VNE host machine is specified using *VMware Player -> Shared Folders* from the menubar of VMware Player. </p>
+The `sharedVNE` folder is shared by the VNE virtual machine, nodes in the laboratories, and the VNE host machine. It is accessed via `/root/sharedVNE` in the VNE virtual machine and `/sharedVNE` in the nodes. How `sharedVNE` is accessed from the VNE host machine is specified using *Player->Manage ->Virtual Machine Settings* from the menubar of VMware Player. 
 
-Shared folders are disabled by default in VMware player and must be enabled before *sharedVNE* can be accessed. Enabling of shared folders is done in *VMware Player -> Shared Folders* in the menubar of VMware Player. The VNE virtual machine must be rebooted for the enabling of shared folders to become effective.
+Shared folders are disabled by default in VMware player and must be enabled before *sharedVNE* can be accessed. Enabling of shared folders is done in *Player->Manage ->Virtual Machine Settings*, clik on option, click on *SharedFolders* and select *Always enabled*.
+
+
+*VMware Player -> Shared Folders* in the menubar of VMware Player. The VNE virtual machine must be rebooted for the enabling of shared folders to become effective.
 
 ### Links and Resources
 
