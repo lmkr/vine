@@ -124,10 +124,10 @@ Right-clicking on a node brings up a menu containing the following entries
 - *Remove* for removing the node from the laboratory. This operation also removes any cables connected to the node.
 - *Reset* for replacing the node with a clean UML instance. This is useful if the node has been misconfigured.
 
-Right-clicking on a hub brings up a menu containing the following entries:</p>
+Right-clicking on a hub brings up a menu containing the following entries:
 
-- <i>Edit</i> for editing the name of the hub.
-- <li><i>Remove</i> for removing the hub from the laboratory. This operation also removes any cables connected to the hub.  
+- *Edit* for editing the name of the hub.
+- *Remove* for removing the hub from the laboratory. This operation also removes any cables connected to the hub.  
 
 Right-clicking on a cable brings up a menu containing a single entry which can be used to *Remove* the cable from the laboratory.
 
@@ -139,7 +139,7 @@ When a laboratory is running each hub has an associated TAP interface specified 
 
 The VNE virtual machine comes with the [Wireshark](http://www.wireshark.org) network protocol analyser installed. Wireshark can be started by double-clicking on the *Wireshark* icon on the VNE desktop. When Wireshark has been started
 
-TODO: missing picture <a href="vne/wiresharkrunning.JPG">
+![](img/wiresharkrunning.JPG)
 
 packets can be captured from a TAP interface by selecting *Capture -> Interfaces* in the Wireshark menubar and then select the desired tap interface from the list interfaces.
 
@@ -149,9 +149,9 @@ It is possible to exchange files between the VNE host machine, the VNE virtual m
 
 The `sharedLAB` folder is shared by the VNE virtual machine and nodes in the virtual laboratories. This folder is accessed via `/root/sharedLAB` on the VNE virtual machine and via `/sharedLAB` in the virtual nodes. The `sharedLAB` folder is useful for, e.g., distributing configuration to the nodes in the laboratory.
 
-The `sharedVNE` folder is shared by the VNE virtual machine, nodes in the laboratories, and the VNE host machine. It is accessed via `/root/sharedVNE` in the VNE virtual machine and `/sharedVNE` in the nodes. How `sharedVNE` is accessed from the VNE host machine is specified using *VMware Player -> Shared Folders* from the menubar of VMware Player. </p>
+The `sharedVNE` folder is shared by the VNE virtual machine, nodes in the laboratories, and the VNE host machine. It is accessed via `/root/sharedVNE` in the VNE virtual machine and `/sharedVNE` in the nodes. How `sharedVNE` is accessed from the VNE host machine is specified using *Player->Manage ->Virtual Machine Settings* from the menubar of VMware Player. 
 
-Shared folders are disabled by default in VMware player and must be enabled before *sharedVNE* can be accessed. Enabling of shared folders is done in *VMware Player -> Shared Folders* in the menubar of VMware Player. The VNE virtual machine must be rebooted for the enabling of shared folders to become effective.
+Shared folders are disabled by default in VMware player and must be enabled before *sharedVNE* can be accessed. Enabling of shared folders is done in *Player->Manage ->Virtual Machine Settings*, clik on option, click on *SharedFolders* and select *Always enabled*. The VNE virtual machine must be rebooted for the enabling of shared folders to become effective.
 
 ### Links and Resources
 
