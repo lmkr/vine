@@ -1,4 +1,4 @@
-## VNE Lab: IPv4 Address Configuration and Resolution
+## VNE Lab: IPv6 Address Autoconfiguration 
 
 This lab explores IPv6 addressing auto-configuration. The objective of the experiments is to observe how stateless IPv6 Autoconfiguration and Neighbour Discovery Protocol (NDP)
 works.
