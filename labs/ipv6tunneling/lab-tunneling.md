@@ -13,7 +13,7 @@ The precreated laboratories can be downloaded using the following steps:
 
 - In VNE, press ALT-F2 in order to bring up the *Execute Program*-dialog. Type in *firefox*, and wait for it to start.
 
-- Point FireFox to http://www.daimi.au.dk/NPaI/transition-workshop.tar.bz by typing it in the location bar. When asked what to do with the file, choose *Save As*. The file will now be saved to the desktop.
+- Point FireFox to https://www.dropbox.com/s/8oqrhqc9emqvesu/simple-tunnel-lab.tar.bz2-lab.tar.bz2?dl=0 by typing it in the location bar. When asked what to do with the file, choose *Save As*. The file will now be saved to the desktop.
 
 - When FireFox has finished downloading, close both FireFox windows.
 

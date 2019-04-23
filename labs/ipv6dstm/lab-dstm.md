@@ -15,6 +15,7 @@ https://github.com/lmkr/vine/blob/master/labs/ipv6tunneling/lab-tunneling.md
 The lab explore how to connect to IPv4 nodes through an
 IPv6 network. For this we use the implementation of the Dual Stack Transition Mechanism provided by ENST Bretagne.
 
+- Download the *dstm-lab* https://www.dropbox.com/s/p5906lr2dk8q237/dstm-lab.tar.bz2?dl=0 
 - Open the *dstm-lab* laboratory. The topology of this laboratory is as follows:
 
 ![](../img/workshop3-lab2.png)

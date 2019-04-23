@@ -11,14 +11,14 @@ the experiments The topology of the laboratory is as follows:
 ![](../img/ip-routing-lab.png)
 
 The laboratory can imported into VNE by the following
-steps: IS THE LAB ALREADY INSIDE VINE? OTHERWISE IT NEED TO BEMADE AVAILABLE SOMEWHERE ELSE
+steps:
 
 - Start VNE.
 
 - In VNE, press ALT-F2 in order to bring up the *Execute
 program*-dialog. Type in *firefox*, and wait for it to start.
 
-- Point FireFox to http://www.daimi.au.dk/NPaI/routing-workshop.tar.bz2 by typing it in the location bar. When asked what to do with the file, choose *Save As*. The file will now be saved to the desktop.
+- Point FireFox to https://www.dropbox.com/s/yg5ixxu42p0cct5/routing-excercise.tar.bz2-lab.tar.bz2?dl=0 by typing it in the location bar. When asked what to do with the file, choose *Save As*. The file will now be saved to the desktop.
 
 - When FireFox is finished downloading, close both FireFox
 windows.
@@ -45,6 +45,7 @@ The network nodes in the laboratory are to be configured with static IPv4 addres
 | Net 3      | 10.3.0.0        | 255.255.0.0 |
 | Net 4      | 10.4.0.0        | 255.255.0.0 |
 
+Please note that hubs are link-layer devices and as such are agnostic to network addresses. In particular, the hubs are not subject to any network address configuration, but the networks are determined from how the interfaces are configured below.
 
 The allocation of the IP addresses to the interfaces of each node is as follows:
 
