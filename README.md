@@ -24,7 +24,7 @@ Installation of VNE consists of three steps:
 
 - Download [VINE](https://www.dropbox.com/s/9uw13i53zwkueu3/VINE-1.0.exe?dl=0) or [VNE](https://www.dropbox.com/s/sufvve0av4qfu5p/VNE-1.0.exe?dl=0) (~500 Mb) which is the VNE virtual machine for WMware Player.
 
-- Unpack the archive downloaded in step 2. The archive is self-extracting on the Windows platform. It is unpacked using [7-zip](http://www.7-zip.org/) on the Linux platform. VNE is extracted in a directory named `VNE-[version]`
+- Unpack the archive downloaded in step 2. The archive is self-extracting on the Windows platform. It is unpacked using [7-zip](http://www.7-zip.org/) on the Linux platform. On Mac OS you may use the Unarchiver application. VNE is extracted in a directory named `VNE-[version]`
 
 ### Starting and Stopping VNE</h2></a>
 
