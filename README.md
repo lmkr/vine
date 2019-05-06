@@ -10,11 +10,9 @@ VINE consists of the following components:
 
 - The **VNE virtual machine** implemented as a virtual Ubuntu Linux machine for [VMware Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html).
 
-- The **VNE Manager** application which is a graphical front-end for creating and running virtual laboratories.
+- The **VNE manager** application which is a graphical front-end for creating and running virtual laboratories.
 
 - **Virtual laboratories** running inside the VNE virtual machine and implemented as virtual hubs and virtual Linux machines in [User Mode Linux](http://user-mode-linux.sourceforge.net/).
-
-
 
 ### Installation
 
@@ -69,7 +67,25 @@ When the VNE Manager is started there is no *current laboratory* and a new (empt
 
 ### Opening and Running Laboratories
 
-A laboratory is opened using the *Open* button in the taskbar. This will load a graphical representation of the laboratory into the workspace. Opening the laboratory *sample* that comes with the VNE distribution will load a laboratory containing three nodes (Node 1, Node 2, and Router) connected by two hubs (Hub 1 and Hub 2).
+A laboratory is opened using the *Open* button in the taskbar. This will load a graphical representation of the laboratory into the workspace. To get started, a sample laboratory is available from here:
+
+https://github.com/lmkr/vine/tree/master/labs/sample-lab
+
+The laboratory can imported into VNE by the following steps:
+
+- In VNE, press ALT-F2 in order to bring up the *Execute
+program*-dialog. Type in *firefox*, and wait for it to start.
+
+- Point FireFox to https://github.com/lmkr/vine/blob/master/labs/sample-lab/sample-lab.tar.bz2 by typing it in the location bar. When asked what to do with the file, choose *Save As*. The file will now be saved to the desktop.
+
+- When FireFox is finished downloading, close both FireFox
+windows.
+
+- Locate the `sample-lab.tar.bz2` file in the desktop, and right-click it. Select *Extract To...*.
+
+- A dialog will popup. Type in `/root/labs` in the *Extract to:*-field, and press the *Extract*-button. The process will start, and once finished the window will close.
+
+Opening this laboratory will load a laboratory containing three nodes (Node 1, Node 2, and Router) connected by two hubs (Hub 1 and Hub 2).
 
 ![](img/samplelabstopped.jpg)
 
@@ -149,7 +165,7 @@ It is possible to exchange files between the VNE host machine, the VNE virtual m
 
 The `sharedLAB` folder is shared by the VNE virtual machine and nodes in the virtual laboratories. This folder is accessed via `/root/sharedLAB` on the VNE virtual machine and via `/sharedLAB` in the virtual nodes. The `sharedLAB` folder is useful for, e.g., distributing configuration to the nodes in the laboratory.
 
-The `sharedVNE` folder is shared by the VNE virtual machine, nodes in the laboratories, and the VNE host machine. It is accessed via `/root/sharedVNE` in the VNE virtual machine and `/sharedVNE` in the nodes. How `sharedVNE` is accessed from the VNE host machine is specified using *Player->Manage ->Virtual Machine Settings* from the menubar of VMware Player. 
+The `sharedVNE` folder is shared by the VNE virtual machine, nodes in the laboratories, and the VNE host machine. It is accessed via `/root/sharedVNE` in the VNE virtual machine and `/sharedVNE` in the nodes. How `sharedVNE` is accessed from the VNE host machine is specified using *Player->Manage ->Virtual Machine Settings* from the menubar of VMware Player.
 
 Shared folders are disabled by default in VMware player and must be enabled before *sharedVNE* can be accessed. Enabling of shared folders is done in *Player->Manage ->Virtual Machine Settings*, clik on option, click on *SharedFolders* and select *Always enabled*. The VNE virtual machine must be rebooted for the enabling of shared folders to become effective.
 
